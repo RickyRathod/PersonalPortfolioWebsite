@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ricky's Personal Website</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
 <div id="header">
@@ -19,8 +20,54 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+        <div class="header-text">
+            <p>Computer Engineering Student</p>
+            <h1>Hi, I'm Ricky</h1>
+        </div>
     </div>
 </div>
-    
+<!------------About---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="TK" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Write your about me here</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experiance')">Experiance</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>skills</span><br>About skills</li>
+                        <li><span>skills</span><br>About skills</li>
+                        <li><span>skills</span><br>About skills</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experiance">
+                    <ul>
+                        <li><span>Experiance</span><br>About Experiance</li>
+                        <li><span>Experiance</span><br>About Experiance</li>
+                        <li><span>Experiance</span><br>About Experiance</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Education</span><br>About Education</li>
+                        <li><span>Education</span><br>About Education</li>
+                        <li><span>Education</span><br>About Education</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------Services------->
+<script>
+</script>   
 </body>
 </html>
