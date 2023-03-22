@@ -62,12 +62,12 @@ nav ul li a:hover::after{
 }
 .header-text{
     margin-top: 10%;
-    font-size: 20px;
+    font-size: 60px;
 
 }
 .header-text h1{
-    font-size: 60px;
-    margin-top: 5px;
+    font-size: 40px;
+    margin-top: 10px;
 }
 /* ----------About----------*/
 #about{
@@ -132,4 +132,19 @@ nav ul li a:hover::after{
 }
 .tab-contents.active-tab{
     display: block;
+}
+/*------portfolio------------*/
+#image-track > .image{
+    width: 20vmin;
+    height: 46vmin;
+    object-fit: cover;
+    object-position: center;
+}
+#image-track{
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 180%;
+    transform: translate(0%, -50%);
 }
